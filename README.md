@@ -1,7 +1,7 @@
 Map Loader for Love2D/Zoetrope
 =============
 
-A simple way to stich maps together in [Zoetrope](http://libzoetrope.org) using the [Tiled Editor](http://www.mapeditor.org/).
+A simple way to stich maps together and save state information in [Zoetrope](http://libzoetrope.org) using the [Tiled Editor](http://www.mapeditor.org/).
 
 Usage
 =============
@@ -15,11 +15,18 @@ Spawn defines where the player will load when entering that map. Use the propert
 
 ```
 
-Example files are in the 'map' directory. 
+Example files are in the 'map' directory.
 
-Just load the .tmx files to see how they work. 
+Just load the .tmx files to see how they work.
 
 ```
+
+In Game
+=============
+* 'S' saves state
+* 'L' loads state
+* 'D' deletes state
+* '(space)' opens chests
 
 Requirements
 =============

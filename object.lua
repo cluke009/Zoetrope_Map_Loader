@@ -13,6 +13,9 @@ Door = Tile:extend
             PREVMAP = MAP
             MAP = self.to
 
+            -- Update state
+            STATE.map = MAP
+
             the.app.view = MapView:new()
             the.app.view:flash({0, 0, 0}, .75)
         end
@@ -64,5 +67,66 @@ Hero = Animation:extend
             self.velocity.x = 300
         end
     end
+}
 
+--[[----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+    CHEST
+
+--------------------------------------------------------------------------------
+]]------------------------------------------------------------------------------
+Chest = Tile:extend
+{
+    onNew = function ( self )
+
+        -- Add params
+        self.uid   = tostring(self.x .. self.y)
+        self.id    = tonumber(self.id)
+        self.state = STATE
+
+        -- Set state of chest
+        if self.state[MAP] == nil then
+            self.state[MAP] = {}
+            self.state[MAP]['chest'] = {}
+        end
+        if self.state[MAP]['chest'][self.uid] == nil then
+            self.open = 0
+            self.image = 'img/chest.gif'
+        else
+            self.open = 1
+            self.image = 'img/chestopen.gif'
+        end
+
+    end,
+    onCollide = function (self, other)
+        if other:instanceOf(Hero) then
+
+            self.other = other
+            self:displace(other)
+        end
+    end,
+    onUpdate = function (self)
+        if self.other then
+
+            local otherX = self.other.x + (self.other.width/2)
+            local otherY = self.other.y + (self.other.height/2)
+
+            local selfX = self.x + (self.width/2)
+            local selfY = self.y + (self.height/2)
+
+            local offsetX = (self.width/2) + (self.other.width/2)
+            local offsetY = (self.height/2) + (self.other.height/2)
+
+            -- Calculate hero proximity to chest
+            if math.abs(otherX - selfX) <= offsetX and math.abs(otherY - selfY) <= offsetY then
+                if the.keys:justPressed(' ') and self.open == 0 then
+                    self.image = 'img/chestopen.gif'
+                    self.open = 1
+
+                    self.state[MAP]['chest'][self.uid] = 1
+                end
+            end
+        end
+    end
 }
