@@ -5,57 +5,27 @@
 
 --------------------------------------------------------------------------------
 ]]------------------------------------------------------------------------------
+
+-- Set debug options
 STRICT = true
 DEBUG = true
+io.stdout:setvbuf("no")
 
-MAP = 'home'
-PREVMAP = nil
-STATE = {}
-
+-- Require necessary files
 require 'zoetrope'
-require 'map'
-require 'object'
+require 'objects'
+local MapView = require 'modules.map_loader'
 
+-- Create new app
 the.app = App:new
 {
     onRun = function (self)
-        -- Setup save state
-        self.save = Storage:new{ filename = 'save.dat' }
 
-        -- Set view to our map loader.
-        self.view = MapView:new()
-    end,
-
-    onUpdate = function (self)
-        if the.keys:justPressed('s') then
-            -- Save state data
-            self.save.data = STATE
-            self.save:save()
-        end
-
-        if the.keys:justPressed('l') then
-            -- Load data into state
-            self.save:load()
-            STATE = self.save.data
-
-            -- Reload view
-            self.view = MapView:new()
-            the.app.view:flash({0, 0, 0}, .75)
-        end
-
-        if the.keys:justPressed('d') then
-            -- Save empty state data
-            self.save.data = {}
-
-            self.save:save()
-
-            -- Load data into state
-            self.save:load()
-            STATE = self.save.data
-
-            -- Reload view
-            self.view = MapView:new()
-            the.app.view:flash({0, 0, 0}, .75)
-        end
+        -- Load our map
+        self.view = MapView:new
+        {
+            player = Hero:new(),
+            map = 'assets/map/home.lua'
+        }
     end
 }
