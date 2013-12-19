@@ -25,7 +25,7 @@ the.app = App:new
         self.view = MapView:new
         {
             player = Hero:new(),
-            map = 'assets/map/home.lua'
+            path = 'assets/map/home.lua'
         }
     end
 }

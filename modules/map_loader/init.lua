@@ -1,5 +1,4 @@
-local pathOfThisFile = tostring(...)
-local MapSetter = require(pathOfThisFile .. '.objects') 
+local MapSetter = require(... .. '.objects') 
 
 --[[----------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -11,7 +10,7 @@ local MapSetter = require(pathOfThisFile .. '.objects')
 local MapLoader = View:extend
 {
     onNew = function (self)
-        self:loadLayers(self.map)
+        self:loadLayers(self.path)
 
         -- Coordinates upon entering new room.
         self.player.x = 480 or self.heroStartX
