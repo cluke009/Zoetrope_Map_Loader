@@ -19,8 +19,8 @@ the.app = App:new
             player = Hero,
             mapDir = 'assets/map/',
             mapName = 'home',
-            playerX = 320,
-            playerY = 320
+            playerX = 480,
+            playerY = 480
         }
     end
 }

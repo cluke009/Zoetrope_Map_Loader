@@ -958,10 +958,5 @@
     <property name="from" value="west"/>
    </properties>
   </object>
-  <object name="Chest" x="640" y="385" width="32" height="32">
-   <properties>
-    <property name="id" value="1"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>
