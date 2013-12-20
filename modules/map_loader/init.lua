@@ -1,34 +1,48 @@
-local MapSetter = require(... .. '.objects') 
-
 --[[----------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
-    MapView - Our map loader. Reads from 'MAP' global. Assumes map directory.
+    MapLoader - Local map loader class.
+
+    Properties:
+        public  - player, playerX, playerY, mapDir, mapName
+        private - _player, _mapPrev
 
 --------------------------------------------------------------------------------
 ]]------------------------------------------------------------------------------
 local MapLoader = View:extend
 {
     onNew = function (self)
-        self:loadLayers(self.path)
+        -- Load map
+        self:loadLayers(self.mapDir .. self.mapName .. '.lua')
+
+        -- Create player
+        -- We copy player object and create a new instance because we need 
+        -- to reference the original object for collision handling, presumably.
+        self._player = self.player:new()
 
         -- Coordinates upon entering new room.
-        self.player.x = 480 or self.heroStartX
-        self.player.y = 480 or self.heroStartY
+        -- Why must we reference the.app.view and self they should be the same?
+        self._player.x = self.playerX or the.app.view.playerX or 0
+        self._player.y = self.playerY or the.app.view.playerY or 0
 
-        self:add(self.player)
+        -- Add player
+        self:add(self._player)
 
-        self.focus = self.player
+        -- Map stuff
+        self.focus = self._player
         self:clampTo(self.map)
-
     end,
 
     onUpdate = function (self)
-        self.map:displace(self.player)
-        self.objects:collide(self.player)
+        self.map:displace(self._player)
+        self.objects:collide(self._player)
     end
 }
 
+-- 
+-- Pass our MapLoader to objects.lua to avoid circular require.
+-- 
+local MapSetter = require(... .. '.objects') 
 MapSetter(MapLoader)
 
 return MapLoader

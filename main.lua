@@ -1,14 +1,6 @@
---[[----------------------------------------------------------------------------
---------------------------------------------------------------------------------
-
-    Map loader demo. Globals used (MAP, PREVMAP, heroStartX, heroStartY)
-
---------------------------------------------------------------------------------
-]]------------------------------------------------------------------------------
-
 -- Set debug options
 STRICT = true
-DEBUG = true
+DEBUG  = true
 io.stdout:setvbuf("no")
 
 -- Require necessary files
@@ -24,8 +16,11 @@ the.app = App:new
         -- Load our map
         self.view = MapView:new
         {
-            player = Hero:new(),
-            path = 'assets/map/home.lua'
+            player = Hero,
+            mapDir = 'assets/map/',
+            mapName = 'home',
+            playerX = 320,
+            playerY = 320
         }
     end
 }

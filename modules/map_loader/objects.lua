@@ -1,7 +1,9 @@
-local MapView 
-
+-- 
+-- Get our MapLoader into scope.
+-- 
+local MapLoader 
 local MapSetter = function(map)
-    MapView = map
+    MapLoader = map
 end
 
 --[[----------------------------------------------------------------------------
@@ -14,12 +16,19 @@ end
 Door = Tile:extend
 {
     onCollide = function (self, other)
-        -- if other:instanceOf(MapView.player) then
-        --     MapView.prevmap = MapView.map
-        --     MapView.map = self.to
-            
-        --     the.app.view = MapView:new()
-        -- end
+        -- Are we coding defensively or is this check truely unecessary?
+        if other:instanceOf(the.app.view.player) then
+
+            -- We need to set mapPrev before we change maps 
+            -- so X and Y coordinates are accesssible on map creation
+            the.app.view._mapPrev = the.app.view.mapName
+            the.app.view = MapLoader:new
+            {
+                player = the.app.view.player,
+                mapName = self.to,
+                mapDir = the.app.view.mapDir,  
+            }
+        end
     end
 }
 
@@ -33,10 +42,10 @@ Door = Tile:extend
 Spawn = Tile:extend
 {
     onNew = function ( self )
-        -- if MapView.prevmap and self.from == MapView.prevmap then
-        --     heroStartX = self.x
-        --     heroStartY = self.y
-        -- end
+        if the.app.view._mapPrev and self.from == the.app.view._mapPrev then
+            the.app.view.playerX = self.x
+            the.app.view.playerY = self.y
+        end
     end
 }
 
