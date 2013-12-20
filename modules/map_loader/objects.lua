@@ -28,6 +28,7 @@ Door = Tile:extend
                 mapName = self.to,
                 mapDir = the.app.view.mapDir,  
             }
+            the.app.view:flash({0, 0, 0}, .75)
         end
     end
 }
