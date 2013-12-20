@@ -190,19 +190,6 @@ return {
           properties = {
             ["from"] = "west"
           }
-        },
-        {
-          name = "Chest",
-          type = "",
-          shape = "rectangle",
-          x = 640,
-          y = 385,
-          width = 32,
-          height = 32,
-          visible = true,
-          properties = {
-            ["id"] = "1"
-          }
         }
       }
     }
