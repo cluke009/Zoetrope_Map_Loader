@@ -99,19 +99,6 @@ return {
           properties = {
             ["to"] = "home"
           }
-        },
-        {
-          name = "Spawn",
-          type = "",
-          shape = "rectangle",
-          x = 890,
-          y = 334,
-          width = 32,
-          height = 301,
-          visible = true,
-          properties = {
-            ["from"] = "home"
-          }
         }
       }
     }

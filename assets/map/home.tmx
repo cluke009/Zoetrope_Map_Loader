@@ -938,25 +938,5 @@
     <property name="to" value="south"/>
    </properties>
   </object>
-  <object name="Spawn" x="331" y="52" width="298" height="24">
-   <properties>
-    <property name="from" value="north"/>
-   </properties>
-  </object>
-  <object name="Spawn" x="331" y="889" width="298" height="24">
-   <properties>
-    <property name="from" value="south"/>
-   </properties>
-  </object>
-  <object name="Spawn" x="894" y="326" width="25" height="307">
-   <properties>
-    <property name="from" value="east"/>
-   </properties>
-  </object>
-  <object name="Spawn" x="38" y="330" width="25" height="307">
-   <properties>
-    <property name="from" value="west"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>

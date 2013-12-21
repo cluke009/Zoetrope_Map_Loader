@@ -923,10 +923,5 @@
     <property name="to" value="home"/>
    </properties>
   </object>
-  <object name="Spawn" x="326" y="50" width="306" height="19">
-   <properties>
-    <property name="from" value="home"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>

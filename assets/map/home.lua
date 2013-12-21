@@ -138,58 +138,6 @@ return {
           properties = {
             ["to"] = "south"
           }
-        },
-        {
-          name = "Spawn",
-          type = "",
-          shape = "rectangle",
-          x = 331,
-          y = 52,
-          width = 298,
-          height = 24,
-          visible = true,
-          properties = {
-            ["from"] = "north"
-          }
-        },
-        {
-          name = "Spawn",
-          type = "",
-          shape = "rectangle",
-          x = 331,
-          y = 889,
-          width = 298,
-          height = 24,
-          visible = true,
-          properties = {
-            ["from"] = "south"
-          }
-        },
-        {
-          name = "Spawn",
-          type = "",
-          shape = "rectangle",
-          x = 894,
-          y = 326,
-          width = 25,
-          height = 307,
-          visible = true,
-          properties = {
-            ["from"] = "east"
-          }
-        },
-        {
-          name = "Spawn",
-          type = "",
-          shape = "rectangle",
-          x = 38,
-          y = 330,
-          width = 25,
-          height = 307,
-          visible = true,
-          properties = {
-            ["from"] = "west"
-          }
         }
       }
     }

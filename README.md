@@ -1,11 +1,12 @@
 Map Loader for Love2D/Zoetrope
 =============
 
-A simple way to stich maps together and save state information in [Zoetrope](http://libzoetrope.org) using the [Tiled Editor](http://www.mapeditor.org/).
+A simple way to stich maps together in [Zoetrope](http://libzoetrope.org) using the [Tiled Editor](http://www.mapeditor.org/).
 
 Usage
 =============
 ```lua
+-- Require module
 local MapView = require 'modules.map_loader'
 
 -- Create new app
@@ -16,21 +17,27 @@ the.app = App:new
         -- Load our map
         self.view = MapView:new
         {
-            player = Hero,
-            mapDir = 'assets/map/',
-            mapName = 'home',
-            playerX = 320,
-            playerY = 320
+            player  = Hero, 			-- The player object
+            playerX = 320,			-- Starting X coordinates
+            playerY = 320,			-- Starting Y coordinates
+            mapDir  = 'assets/map/', -- Directory to load all maps from
+            mapName = 'home',		-- The name of the map
         }
     end
 }
 ```
 
-In Tiled you can now use 2 new objects, Door and Spawn.
+In Tiled you can now use 1 new object `Door`.
 
-Door defines which map to load when passing through it using the property name 'to' and value 'mapname'.
+Door defines which map to load when passing through it using the property name `'to'` and value `'mapname'`. This is a 2 way process and acts as the spawn location as well.
 
-Spawn defines where the player will load when entering that map. Use the property name 'from' and value 'mapname'.
+Notes
+=============
+1 global is created because it is required by [Zoetrope](http://libzoetrope.org) for tiled objects.
+
+The 'map_loader' directory can be moved to any location because of the way we require necessary files.
+
+We are limited to 1 entry and exit between any 2 maps in Tiled.
 
 Requirements
 =============
