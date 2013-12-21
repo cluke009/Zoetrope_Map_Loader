@@ -1,22 +1,21 @@
---[[----------------------------------------------------------------------------
---------------------------------------------------------------------------------
-
-    MapLoader - Local map loader class.
-
-    Properties:
-        public  - player, playerX, playerY, mapDir, mapName
-        private - _player, _mapPrev
-
---------------------------------------------------------------------------------
-]]------------------------------------------------------------------------------
+--
+-- Class: MapLoader
+-- Local map loader class allows us to link multiple Tiled maps together.
+-- Extends:
+--      <View>
+--
+-- Properties:
+--     public  - player, playerX, playerY, mapDir, mapName
+--     private - _player, _mapPrev
+--
 local MapLoader = View:extend
 {
-    onNew = function (self)
+    onNew = function(self)
         -- Load map
         self:loadLayers(self.mapDir .. self.mapName .. '.lua')
 
         -- Create player
-        -- We copy player object and create a new instance because we need 
+        -- We copy player object and create a new instance because we need
         -- to reference the original object for collision handling, presumably.
         self._player = self.player:new()
 
@@ -33,16 +32,16 @@ local MapLoader = View:extend
         self:clampTo(self.map)
     end,
 
-    onUpdate = function (self)
+    onUpdate = function(self)
         self.map:displace(self._player)
         self.objects:collide(self._player)
     end
 }
 
--- 
+--
 -- Pass our MapLoader to objects.lua to avoid circular require.
--- 
-local MapSetter = require(... .. '.objects') 
+--
+local MapSetter = require(... .. '.objects')
 MapSetter(MapLoader)
 
 return MapLoader
