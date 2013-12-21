@@ -17,11 +17,11 @@ the.app = App:new
         -- Load our map
         self.view = MapView:new
         {
-            player  = Hero, 			-- The player object
-            playerX = 320,			-- Starting X coordinates
-            playerY = 320,			-- Starting Y coordinates
+            player  = Hero, 		 -- The player object
+            playerX = 320,			 -- Starting X coordinates
+            playerY = 320,			 -- Starting Y coordinates
             mapDir  = 'assets/map/', -- Directory to load all maps from
-            mapName = 'home',		-- The name of the map
+            mapName = 'home',		 -- The name of the map
         }
     end
 }
