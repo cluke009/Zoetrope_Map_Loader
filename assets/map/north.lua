@@ -51,6 +51,24 @@ return {
           properties = {
             ["solid"] = "false"
           }
+        },
+        {
+          id = 1,
+          properties = {
+            ["solid"] = "false"
+          }
+        },
+        {
+          id = 2,
+          properties = {
+            ["solid"] = "false"
+          }
+        },
+        {
+          id = 3,
+          properties = {
+            ["solid"] = "false"
+          }
         }
       }
     }

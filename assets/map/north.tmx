@@ -20,6 +20,21 @@
     <property name="solid" value="false"/>
    </properties>
   </tile>
+  <tile id="1">
+   <properties>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
  </tileset>
  <layer name="map" width="30" height="30">
   <data>

@@ -51,9 +51,9 @@ Door = Tile:extend
     _collide = true,
     onNew = function(self)
         if the.app.view._mapPrev and split(self.to, ',')[1] == the.app.view._mapPrev then
-            -- Disable collision check on spawn.           
+            -- Disable collision check on spawn.
             self._collide = false
-                 
+
             -- Set player x, y.
             the.app.view.playerX = self.x
             the.app.view.playerY = self.y
@@ -61,20 +61,19 @@ Door = Tile:extend
     end,
     onCollide = function(self, other, xOverlap, yOverlap)
         if self._collide and other:instanceOf(the.app.view.player) then
-
             local _map = split(self.to, ',')
 
             the.app.view._mapPrev = the.app.view.mapName
             the.app.view = MapLoader:new
             {
                 player = the.app.view.player,
-                mapName = _map[1], 
+                mapName = _map[1],
                 mapDir = the.app.view.mapDir,
-            }                    
+            }
 
             -- Set player x, y.
             the.app.view._player.x = _map[2] * 32
-            the.app.view._player.y = _map[3] * 32    
+            the.app.view._player.y = _map[3] * 32
         end
     end,
     onUpdate = function(self, elapsed)
