@@ -38,10 +38,52 @@ local MapLoader = View:extend
     end
 }
 
+
 --
--- Pass our MapLoader to objects.lua to avoid circular require.
+-- Class: Door
+-- Where you enter and exit a map.
 --
-local MapSetter = require(... .. '.objects')
-MapSetter(MapLoader)
+-- Extends:
+--      <Tile>
+--
+Door = Tile:extend
+{
+    _collide = true,
+    onNew = function(self)
+        if the.app.view._mapPrev and split(self.to, ',')[1] == the.app.view._mapPrev then
+            -- Disable collision check on spawn.           
+            self._collide = false
+                 
+            -- Set player x, y.
+            the.app.view.playerX = self.x
+            the.app.view.playerY = self.y
+        end
+    end,
+    onCollide = function(self, other, xOverlap, yOverlap)
+        if self._collide and other:instanceOf(the.app.view.player) then
+
+            local _map = split(self.to, ',')
+
+            the.app.view._mapPrev = the.app.view.mapName
+            the.app.view = MapLoader:new
+            {
+                player = the.app.view.player,
+                mapName = _map[1], 
+                mapDir = the.app.view.mapDir,
+            }                    
+
+            -- Set player x, y.
+            the.app.view._player.x = _map[2] * 32
+            the.app.view._player.y = _map[3] * 32    
+        end
+    end,
+    onUpdate = function(self, elapsed)
+        -- Enable collision check after we move off Door.
+        local _p = the.app.view._player
+        if not self:intersects(_p.x, _p.y, _p.width, _p.height) then
+            self._collide = true
+        end
+    end,
+}
 
 return MapLoader

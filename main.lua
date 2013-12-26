@@ -7,7 +7,7 @@ io.stdout:setvbuf("no")
 require 'zoetrope'
 local MapView = require 'modules.map_loader'
 
--- Create Hero object
+-- Create Hero objectevents.lua
 Hero = Animation:extend
 {
     width = 32,

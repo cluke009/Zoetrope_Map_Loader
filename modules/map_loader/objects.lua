@@ -15,29 +15,32 @@ end
 --
 Door = Tile:extend
 {
-    _collide = true,
+    -- _collide = true,
     onNew = function(self)
-        if the.app.view._mapPrev and self.to == the.app.view._mapPrev then
-            -- Disable collision check on spawn.
-            self._collide = false
 
-            -- Set player x, y.
-            the.app.view.playerX = self.x
-            the.app.view.playerY = self.y
-        end
     end,
     onCollide = function(self, other, xOverlap, yOverlap)
         if self._collide and other:instanceOf(the.app.view.player) then
             -- We need to set mapPrev before we change maps
             -- so X and Y coordinates are accesssible on map creation
-            the.app.view._mapPrev = the.app.view.mapName
-            the.app.view = MapLoader:new
-            {
-                player = the.app.view.player,
-                mapName = self.to,
-                mapDir = the.app.view.mapDir,
-            }
-            the.app.view:flash({0, 0, 0}, .75)
+
+            local _map = split(self.to, ',')
+
+            -- Set player x, y.
+            the.app.view.playerX = _map[2] * 32
+            the.app.view.playerY = _map[3] * 32
+
+            if _map[1] ~= 'nil' then
+                the.app.view = MapLoader:new
+                {
+                    player = the.app.view.player,
+                    mapName = _map[1], 
+                    mapDir = the.app.view.mapDir,
+                }    
+            else 
+                the.app.view._player.x = _map[2] * 32
+                the.app.view._player.y = _map[3] * 32     
+            end   
         end
     end,
     onUpdate = function(self, elapsed)

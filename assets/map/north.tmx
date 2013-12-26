@@ -13,6 +13,14 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="4" name="portal" tilewidth="32" tileheight="32">
+  <image source="img/portal.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
  <layer name="map" width="30" height="30">
   <data>
    <tile gid="1"/>
@@ -104,7 +112,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="1"/>
+   <tile gid="3"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -439,8 +447,6 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -451,6 +457,8 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
+   <tile gid="4"/>
+   <tile gid="5"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -479,6 +487,8 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
+   <tile gid="6"/>
+   <tile gid="7"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -489,8 +499,6 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="3"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -529,8 +537,6 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -539,10 +545,12 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -559,8 +567,6 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -569,10 +575,12 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
    <tile gid="2"/>
+   <tile gid="4"/>
+   <tile gid="5"/>
    <tile gid="2"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -597,12 +605,12 @@
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
    <tile gid="2"/>
+   <tile gid="6"/>
+   <tile gid="7"/>
    <tile gid="2"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -625,16 +633,15 @@
    <tile gid="3"/>
    <tile gid="3"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="3"/>
    <tile gid="3"/>
    <tile gid="3"/>
@@ -642,6 +649,7 @@
    <tile gid="3"/>
    <tile gid="3"/>
    <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="1"/>
    <tile gid="3"/>
    <tile gid="3"/>
@@ -835,13 +843,13 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -865,13 +873,13 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -895,13 +903,13 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="3"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
-   <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
-   <tile gid="2"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
+   <tile gid="3"/>
    <tile gid="2"/>
    <tile gid="2"/>
    <tile gid="2"/>
@@ -918,9 +926,24 @@
   </data>
  </layer>
  <objectgroup name="objects" width="30" height="30">
-  <object name="Door" x="326" y="929" width="309" height="25">
+  <object name="Door" x="544" y="928" width="96" height="32">
    <properties>
-    <property name="to" value="home"/>
+    <property name="to" value="home, 18, 1"/>
+   </properties>
+  </object>
+  <object name="Door" x="320" y="928" width="96" height="32">
+   <properties>
+    <property name="to" value="home, 11, 1"/>
+   </properties>
+  </object>
+  <object name="Door" x="448" y="576" width="64" height="64">
+   <properties>
+    <property name="to" value="north, 14, 14"/>
+   </properties>
+  </object>
+  <object name="Door" x="448" y="448" width="64" height="64">
+   <properties>
+    <property name="to" value="north, 14, 18"/>
    </properties>
   </object>
  </objectgroup>

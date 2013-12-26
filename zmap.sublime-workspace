@@ -1,0 +1,1017 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"he",
+				"height"
+			],
+			[
+				"tab",
+				"table_print"
+			],
+			[
+				"fun",
+				"function	function"
+			],
+			[
+				"lo",
+				"loadParticles"
+			],
+			[
+				"h",
+				"heroes"
+			],
+			[
+				"exper",
+				"experience"
+			],
+			[
+				"For",
+				"Formula"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"for",
+				"formula"
+			],
+			[
+				"fo",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"ma",
+				"math"
+			],
+			[
+				"map",
+				"mapGen"
+			],
+			[
+				"i",
+				"iHeight"
+			],
+			[
+				"e",
+				"effect"
+			],
+			[
+				"func",
+				"function	name = function"
+			],
+			[
+				"on",
+				"onDeactivate"
+			],
+			[
+				"else",
+				"else"
+			],
+			[
+				"hero",
+				"heroes"
+			],
+			[
+				"Battle",
+				"BattleController"
+			],
+			[
+				"fill",
+				"fill"
+			],
+			[
+				"acti",
+				"activate"
+			],
+			[
+				"enem",
+				"enemy"
+			],
+			[
+				"menu",
+				"menuTest"
+			],
+			[
+				"de",
+				"deactivate"
+			],
+			[
+				"Ba",
+				"BattleController"
+			],
+			[
+				"ene",
+				"enemy"
+			],
+			[
+				"equip",
+				"equipment"
+			],
+			[
+				"equi",
+				"equipment"
+			],
+			[
+				"Batt",
+				"BattleController"
+			],
+			[
+				"B",
+				"BattleController"
+			],
+			[
+				"enemy",
+				"enemyID"
+			],
+			[
+				"anim",
+				"animDmg"
+			],
+			[
+				"rand",
+				"randID"
+			],
+			[
+				"Bat",
+				"Battle"
+			],
+			[
+				"dmg",
+				"dmgText"
+			],
+			[
+				"her",
+				"heroID"
+			],
+			[
+				"dm",
+				"dmgText"
+			],
+			[
+				"enm",
+				"enemyTurn"
+			],
+			[
+				"heroI",
+				"heroID"
+			],
+			[
+				"at",
+				"attack"
+			],
+			[
+				"tur",
+				"turnKey"
+			],
+			[
+				"pr",
+				"pretty"
+			],
+			[
+				"tu",
+				"turnKind"
+			],
+			[
+				"du",
+				"dump"
+			],
+			[
+				"effec",
+				"effects"
+			],
+			[
+				"Stat",
+				"STATE"
+			],
+			[
+				"Equi",
+				"EquipHero"
+			],
+			[
+				"E",
+				"Equipped"
+			],
+			[
+				"sub",
+				"subviewDeactivate"
+			],
+			[
+				"type",
+				"typeID"
+			],
+			[
+				"ite",
+				"itemID"
+			],
+			[
+				"sprite",
+				"spriteRemove"
+			],
+			[
+				"local",
+				"localHero"
+			],
+			[
+				"of",
+				"ofType"
+			],
+			[
+				"Eq",
+				"EquipList"
+			],
+			[
+				"Sta",
+				"STATE"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"ac",
+				"active"
+			],
+			[
+				"p",
+				"pretty"
+			],
+			[
+				"in",
+				"inventory"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"th",
+				"the"
+			],
+			[
+				"Ad",
+				"addItem"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"activate",
+				"activated"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"tet",
+				"textArray"
+			],
+			[
+				"Enemy",
+				"Enemy"
+			],
+			[
+				"text",
+				"textArray"
+			],
+			[
+				"l",
+				"len"
+			],
+			[
+				"ad",
+				"adjacent"
+			],
+			[
+				"options",
+				"options"
+			],
+			[
+				"items",
+				"love.filesystem.setSource"
+			],
+			[
+				"do",
+				"love.joystick.isDown"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.lua",
+			"settings":
+			{
+				"buffer_size": 1038,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/love2d.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 609.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/events.lua",
+		"/Users/geraldo/Dropbox/Game/Jeph/TheWorld/RPGKitCurrentBuildv3/assets/tables/events.lua",
+		"/Users/geraldo/Dropbox/Game/Jeph/TheWorld/RPGKitCurrentBuildv3/assets/maps/home.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/quests.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/specials.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/sound.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/shop.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/heroes.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/equipment.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/enemies.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets/tables/items.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/model/shop/shop_model.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/model/battle/battle_model.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/README.md",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/map.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/triggers.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/assets.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/global.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/conf.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/view/shop/shop_view.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/view/menu_main/menu_main_view.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/view/battle/battle_view.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/controller/battle/battle_controller.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/controller/shop/shop_controller.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/helpers/dialog_helper.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/helpers/menu_helper.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/helpers/string_helper.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/helpers/table_helper.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/objects.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/zoetrope/core/app.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/main.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/globals.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/rpgkit.sublime-project",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/state.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/TLfres.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/zoetrope/init.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/bak.lua",
+		"/Users/geraldo/Library/Application Support/LOVE/RPGCK/save1.dat",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/zoetrope/utils/storage.lua",
+		"/Users/geraldo/Dropbox/Game/Geraldo/awiderworld/zoetrope/core/globals.lua",
+		"/Users/geraldo/Library/Application Support/Sublime Text 2/Packages/User/love2d.sublime-build",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/map.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/rpgkit.sublime-project",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/rpgkit.sublime-workspace",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/zoetrope/sprites/emitter.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/view/battle/battle_view.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/sound.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/conf.lua",
+		"/home/cluke009/.config/sublime-text-2/Packages/User/love2d.sublime-build",
+		"/home/cluke009/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/zoetrope/core/globals.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/helpers/menu_helper.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/main.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/model/battle/battle_model.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/state.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/triggers.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/controller/battle/battle_controller.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/globals.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/heroes.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/enemies.lua",
+		"/home/cluke009/.config/sublime-text-3/Packages/User/love2d.sublime-build",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/dialog.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/helpers/dialog_helper.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/quests.lua",
+		"/home/cluke009/Dropbox/Game/Geraldo/awiderworld/assets/tables/npcs.lua",
+		"/C/Users/MAINRIG/Desktop/unangband-064-src/src/generate.c",
+		"/C/Users/MAINRIG/Desktop/map.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/main.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/maps/test.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/map.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/mapGen.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/globals.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/tables/equipment.lua",
+		"/C/Users/MAINRIG/Desktop/main.lua",
+		"/C/Users/MAINRIG/Desktop/dungeon/jumper/pathfinder.lua",
+		"/C/Users/MAINRIG/Desktop/dungeon/main.lua",
+		"/C/Users/MAINRIG/Desktop/dungeon/jumper/grid.lua",
+		"/C/Users/MAINRIG/Desktop/dungeon/map.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/zoetrope/core/group.lua",
+		"/C/Users/MAINRIG/AppData/Roaming/LOVE/RPGCK/test.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/maps/home.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/menu/init.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/menu/party.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/menu/items.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/tables/enemies.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/tables/heroes.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/formula.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/shaders/shaders.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/menu/menu.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/dialog.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/menu/equip.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/battleView.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/state.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/battleModel.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/battleController.lua",
+		"/C/Users/MAINRIG/Desktop/bloom-1/shaders.lua",
+		"/C/Users/MAINRIG/Desktop/bloom-1/main.lua",
+		"/C/Users/MAINRIG/Desktop/fireworks/main.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/zoetrope/sprites/animation.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/zoetrope/core/sprite.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/objects.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Backup/Love2D/TestGame/objects.lua",
+		"/C/Users/MAINRIG/Desktop/Export Layers To Files - (Fast PNG version).jsx",
+		"/C/Users/MAINRIG/Desktop/math.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets/tables/items.lua",
+		"/C/Users/MAINRIG/Desktop/navi/arc/arc.lua",
+		"/C/Users/MAINRIG/Desktop/navi/main.lua",
+		"/C/Users/MAINRIG/Desktop/dastal_proto1/localconfig.lua",
+		"/C/Users/MAINRIG/Desktop/navi/arc/code.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/TODO.md",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/RELEASE.md",
+		"/C/Users/MAINRIG/AppData/Local/Temp/7zE6B79.tmp/main.lua",
+		"/C/Users/MAINRIG/Desktop/shaders/4xBR.frag",
+		"/C/Users/MAINRIG/Desktop/shaders/init.lua",
+		"/C/Users/MAINRIG/Downloads/Images Effects -shader/Invert.lua",
+		"/C/Users/MAINRIG/Downloads/Images Effects -shader/main.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/conf.lua",
+		"/C/Users/MAINRIG/AppData/Local/Temp/7zE4B39.tmp/main.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/assets.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/tableController.lua",
+		"/C/Users/MAINRIG/Dropbox/Game/Geraldo/awiderworld/rpgkit.sublime-project",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/Lua Dev/completions.sublime-completions",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/Lua Dev/function-(function).sublime-snippet",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/Lua Dev/Lua.tmLanguage",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/ComputerCraft Package/ComputerCraft.tmLanguage",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/ComputerCraft Package/Comments.tmPreferences",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/Lua Dev/Main.sublime-menu",
+		"/C/Users/MAINRIG/AppData/Roaming/Sublime Text 2/Packages/ComputerCraft Package/package-metadata.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\,-*.html, -*.css",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\,-*.html .css",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\,-*.html-*.css",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\,-*.html",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\zoetrope",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\",
+			"C:\\Users\\MAINRIG\\Desktop\\awiderworld\\zoetrope",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Encounter",
+			"\nEncounter",
+			"        drops - Items/Equipment given\n            Not currently implemented.\n",
+			".\n",
+			"table_print",
+			"draw",
+			"love.load",
+			"load",
+			"love.draw",
+			"width",
+			"2",
+			"hero",
+			"dump",
+			"loadPartic",
+			"playSound",
+			"deepcopy",
+			"bo",
+			"box_a",
+			"5",
+			"{'assets/font/PressStart2P.ttf', 16},",
+			"font",
+			"{ 1, 1, 1 },",
+			"{ 0, 0, 0 },",
+			"24",
+			"play(",
+			"shader",
+			"sha",
+			"k",
+			"10",
+			"[1]",
+			"STATE.heroes",
+			"saveFile",
+			"img",
+			"height",
+			"self",
+			"self,",
+			"dead",
+			"active",
+			"text",
+			"formula",
+			"computercraft",
+			"BattleController.data.hero[1]",
+			"prett",
+			"pret",
+			"spriteRemove",
+			"subviewRedraw",
+			"queue",
+			"enem",
+			"Enemy",
+			")\n",
+			"self",
+			"        -- data.enemy[1] = enemies[1]\n        pretty.dump(STATE.heroes[1])\n        pretty.dump(data)\n",
+			"stats",
+			"then",
+			"print",
+			"={}\n",
+			"weapons",
+			"hero",
+			"hero.stats",
+			"localHero",
+			"equipmentEffect",
+			"spriteRemove",
+			"EquipHero",
+			"localItem",
+			"v",
+			"equippe",
+			"STATE",
+			"init",
+			"{\n    \"selector\": \"source.lua\",\n    \"cmd\": [\"love\", \"$project_path\"]\n}\n",
+			"init",
+			"quit",
+			"t",
+			"pretty.dump",
+			"pretty",
+			"Equi",
+			"equip",
+			"equi",
+			"menu",
+			"fheight",
+			"Equipment",
+			" + (i - 1) * 100",
+			"20",
+			"inventory",
+			"\n         ",
+			"    Property: ",
+			"dialo",
+			"================",
+			"referenced",
+			"prett",
+			"print",
+			"STATE.heroes[k].stats[stat]",
+			"value",
+			"champ",
+			"dump",
+			"table.insert",
+			"]))\n",
+			"pretty.dump",
+			"print",
+			"next",
+			"end",
+			"150",
+			"h",
+			"self",
+			"name",
+			"justPressed('enter')",
+			"justPressed(' ')",
+			"items",
+			"self.state",
+			"item3",
+			"inventory",
+			"GAME",
+			"GAME.state",
+			"chest",
+			"game.chest",
+			"prevmap",
+			"GAME.enemies",
+			"dialog",
+			"dialo",
+			"next(",
+			"Group",
+			"end",
+			"STATE",
+			"{}\n",
+			"Enemies",
+			"STATE",
+			"state",
+			"GAME.state",
+			"../../../Documents/GitHub/Zoetrope_Map_Loader"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"STATE.font,",
+			"{ 0, 0, 0 },",
+			"{ 1, 1, 1 },",
+			"{'assets/font/PressStart2P.ttf', 16}",
+			"i",
+			"[self.id]",
+			"enemies",
+			".img",
+			"",
+			"\n",
+			"Formula",
+			"lua",
+			"1",
+			"equipmentEffect",
+			"step",
+			"",
+			" - ",
+			"        ",
+			"hero",
+			"justPressed('return')",
+			"justPressed('enter')",
+			"STATE",
+			"enemies",
+			"GAME.enemies",
+			"STATE",
+			"assets",
+			"",
+			"\n",
+			"GAME",
+			"GAME.map",
+			"GAME.prevmap",
+			"prevmap",
+			"GAME",
+			"MAP",
+			"'maps/'",
+			"x = 300,",
+			"cur",
+			"hover",
+			"cur",
+			"active",
+			"self.active",
+			"col",
+			"",
+			",",
+			", ",
+			"",
+			", ",
+			".image = self.buttons.items.background[2]",
+			".image = self.items.buttons.background[2]",
+			".image = buttons.background[2]",
+			"self.active",
+			"self.state[",
+			"self.state",
+			"active",
+			"\",",
+			"                ",
+			"},\n    {\"",
+			"    {\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.lua",
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 169.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tri",
+				"awiderworld/triggers.lua"
+			],
+			[
+				"app",
+				"awiderworld/zoetrope/core/app.lua"
+			],
+			[
+				"main",
+				"awiderworld/main.lua"
+			],
+			[
+				"conf",
+				"awiderworld/conf.lua"
+			],
+			[
+				"sto",
+				"awiderworld/zoetrope/utils/storage.lua"
+			],
+			[
+				"glo",
+				"awiderworld/zoetrope/core/globals.lua"
+			],
+			[
+				"ob",
+				"objects.lua"
+			],
+			[
+				"stat",
+				"state.lua"
+			],
+			[
+				"ma",
+				"map.lua"
+			],
+			[
+				"con",
+				"conf.lua"
+			],
+			[
+				"sta",
+				"state.lua"
+			],
+			[
+				"en",
+				"assets/tables/enemies.lua"
+			],
+			[
+				"her",
+				"assets/tables/heroes.lua"
+			],
+			[
+				"enem",
+				"assets/tables/enemies.lua"
+			],
+			[
+				"hero",
+				"assets/tables/heroes.lua"
+			],
+			[
+				"glob",
+				"globals.lua"
+			],
+			[
+				"npc",
+				"assets/tables/npcs.lua"
+			],
+			[
+				"equi",
+				"assets/tables/equipment.lua"
+			],
+			[
+				"group",
+				"zoetrope/core/group.lua"
+			],
+			[
+				"test",
+				"assets/maps/test.lua"
+			],
+			[
+				"home",
+				"assets/maps/home.lua"
+			],
+			[
+				"gr",
+				"zoetrope/core/group.lua"
+			],
+			[
+				"sha",
+				"shaders/shaders.lua"
+			],
+			[
+				"form",
+				"formula.lua"
+			],
+			[
+				"eq",
+				"menu/equip.lua"
+			],
+			[
+				"dial",
+				"dialog.lua"
+			],
+			[
+				"ba",
+				"battleModel.lua"
+			],
+			[
+				"bat",
+				"battleController.lua"
+			],
+			[
+				"dia",
+				"dialog.lua"
+			],
+			[
+				"obje",
+				"objects.lua"
+			],
+			[
+				"mo",
+				"battleModel.lua"
+			],
+			[
+				"to",
+				"TODO.md"
+			],
+			[
+				"formu",
+				"formula.lua"
+			],
+			[
+				"re",
+				"RELEASE.md"
+			],
+			[
+				"model",
+				"battleModel.lua"
+			],
+			[
+				"bae",
+				"battleModel.lua"
+			],
+			[
+				"menu",
+				"awiderworld/menu/menu.lua"
+			],
+			[
+				"object",
+				"objects.lua"
+			],
+			[
+				"ite",
+				"menu/items.lua"
+			],
+			[
+				"map",
+				"map.lua"
+			],
+			[
+				"item",
+				"menu/items.lua"
+			],
+			[
+				"clas",
+				"zoetrope/core/class.lua"
+			],
+			[
+				"men",
+				"menu.lua"
+			],
+			[
+				"items",
+				"assets/tables/items.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}
